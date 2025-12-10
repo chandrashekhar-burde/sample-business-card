@@ -1,5 +1,7 @@
 * {
     margin: 0; padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,38 +19,39 @@ body {
     border: 2px solid #eee;
 }
 
-.profile-image {
-    max-width: 100%;
+.business-card p {
+    margin: 5px;
 }
 
-p {
-    margin: 5px auto;
-}
-
-.business-card .full-name {
+.user-info .full-name {
     font-size: 24px;
 }
 
-.business-card .designation {
+.user-info .designation {
     font-size: 20px;
     color: gray;
 }
 
-.business-card .company {
+.user-info .company {
     color: #aaa;
+}
+
+.user-portfolio p {
+    display: flex;
+    gap: 4px;
+}
+
+.user-portfolio p a {
+    color: black;
+}
+
+.user-portfolio .portfolio a {
+    text-decoration: underline;
+    color: maroon;
 }
 
 hr {
     margin: 20px 0;
-}
-
-p a {
-    color: black;
-    text-decoration: none;
-}
-
-.portfolio-link {
-    color: blue;
 }
 
 .social-media h2 {
